@@ -28,7 +28,7 @@ const Workspace = () => {
       <div className='fixed inset-y-0 left-0 w-60 bg-gray-50 border-r'>
       <nav className='flex h-full min-h-0 flex-col overflow-y-auto'>
         <div className='p-6 pb-2'>
-            <NavLink to={'/landing'}>
+            <NavLink to={'/'}>
               <div className='flex items-center gap-2'>
                 <FiGitMerge />
                 <span className="font-bold">FlowLite</span>
@@ -49,7 +49,7 @@ const Workspace = () => {
           <div className="rounded-xl border bg-white">
               <div className="space-y-1.5 p-4">
                 <div className="font-semibold tracking-tight text-sm">Support</div>
-                <div className="text-xs"> We are here to help. Email us at <strong>support@email</strong> if you need any help.</div>
+                <div className="text-xs"> We are here to help. Email us at <strong>hello@uiroom.pro</strong> if you need any help.</div>
                 </div>
               </div>
         </div>

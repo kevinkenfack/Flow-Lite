@@ -34,12 +34,7 @@ import ErrorPage from './pages/ErrorPage.jsx'
 
 const router = createBrowserRouter([
   {
-    index: true,
-    loader: () => redirect('/workspace/all'),
-    errorElement: <ErrorPage />
-  },
-  {
-    path: "/landing",
+    path: "/",
     element: <Landing />,
     errorElement: <ErrorPage />
   },
@@ -48,6 +43,10 @@ const router = createBrowserRouter([
     element: <Workspace />,
     errorElement: <ErrorPage />,
     children:[
+      {
+        index: true,
+        loader: () => redirect('/workspace/all'),
+      },
       {
         path: "all",
         element: <AllFlows />,

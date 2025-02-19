@@ -5,6 +5,12 @@
   <p>Available in two versions: Browser-based (LocalStorage) and Node.js (SQLite)</p>
 </div>
 
+## 📸 Preview
+
+<div align="center">
+  <img src="public/screenshot.png" alt="FlowLite Preview" width="100%" style="border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);" />
+</div>
+
 ## 🌟 Overview
 
 FlowLite is a modern tool for creating user flows, wireframes, and interaction diagrams. Choose between two versions based on your needs:
@@ -23,7 +29,7 @@ FlowLite is a modern tool for creating user flows, wireframes, and interaction d
 - User authentication
 - Data persistence
 - Team collaboration features
-- [View Node.js Version](https://github.com/kevinkenfack/FlowLiteNodejs)
+- [View Node.js Version](https://github.com/kevinkenfack/Flow-Lite/tree/main/FlowLiteNodejs)
 
 ## ⚡ Key Features
 

@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global changes to button */
+button {
+  @apply outline-none
+}
+
+/* ReactFlow  styles */
+.react-flow__attribution {
+  @apply !bg-gray-50 !right-11
+}
+
+.flow-card .react-flow__attribution {
+  @apply !hidden
+}
+
+/* Custom animations */
+
+path.animation {
+  animation: dashDraw 1.1s linear infinite;
+}
+
+.react-flow__edge.animated path.reverse-animation{
+  animation: dashReverse 0.5s linear infinite;
+}
+
+@keyframes dashReverse {
+  0% {
+    stroke-dashoffset: -10;
+  }
+}
+
+@keyframes dashDraw {
+  0% {
+    stroke-dashoffset: 10;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b7b7b7;
+}

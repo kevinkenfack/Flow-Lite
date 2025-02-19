@@ -7,7 +7,7 @@ const Support = () => {
         <article>
           <header>
             <p className="text-base ">
-              Uiroom
+              uiroom
             </p>
             <h1 className="text-3xl font-bold tracking-tight text-gray-900">
               Support
@@ -18,7 +18,7 @@ const Support = () => {
 
           <p>Welcome to the support section of documentation. If you encounter any issues or need help with app, please follow the guidelines below:</p>
           <p class="font-semibold my-2">If you need assistance with the script, please choose one of the following methods to reach out to me:</p>
-          <p><strong>Support page</strong></p>
+          <p><strong>Support page on Uiroom</strong></p>
           <p><a class="text-blue-600 font-semibold" target="_blank" href="https://uiroom.pro/support">Uiroom Support Page</a></p>
           <br />
           <p>

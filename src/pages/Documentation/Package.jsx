@@ -16,7 +16,7 @@ const Package = () => {
           <hr className='my-4' />
           <div className="mt-6">
             <p>
-            When you purchase FlowLite from CodeCanyon, the download includes a ZIP package containing all the necessary files to get started. Below is a summary of what you can find in the package:
+            the project includes a ZIP package containing all the necessary files to get started. Below is a summary of what you can find in the package:
             </p>
             <h2 className='font-semibold text-xl my-3 text-gray-900'>
             What’s Included in the ZIP Package

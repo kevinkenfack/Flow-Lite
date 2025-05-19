@@ -104,7 +104,7 @@ MIT License - feel free to use it for personal or commercial projects.
   <p>
     <a href="https://flow.uiroom.pro">Live Demo</a> •
     <a href="https://github.com/kevinkenfack/Flow-Lite/issues">Report Bug</a> •
-    <a href="https://github.com/kevinkenfack/FlowLiteNodejs">Node.js Version</a>
+    <a href="https://github.com/kevinkenfack/Flow-Lite/tree/main/FlowLiteNodejs">Node.js Version</a>
   </p>
 </div>
 
